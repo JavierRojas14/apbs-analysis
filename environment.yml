@@ -1,0 +1,15 @@
+channels:
+- conda-forge
+- defaults
+dependencies:
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- python
+- openpyxl
+- mdanalysis
+- python-dotenv
+- click
+- pyyaml
+name: apbs-analysis
