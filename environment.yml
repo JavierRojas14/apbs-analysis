@@ -1,26 +1,26 @@
 channels:
-- conda-forge
-- defaults
+  - conda-forge
+  - defaults
 dependencies:
-- click
-- ipykernel
-- matplotlib
-- mdanalysis
-- nglview
-- numpy
-- openpyxl
-- pandas
-- python
-- python-dotenv
-- pyyaml
-- seaborn
-- pip:
-  - charset-normalizer==3.3.2
-  - docutils==0.17.1
-  - idna==3.6
-  - mmcif-pdbx==2.0.1
-  - pdb2pqr==3.6.2
-  - propka==3.5.1
-  - requests==2.31.0
-  - urllib3==2.1.0
+  - click
+  - ipykernel
+  - matplotlib
+  - mdanalysis
+  - nglview
+  - numpy
+  - openpyxl
+  - pandas
+  - python=3.9
+  - python-dotenv
+  - pyyaml
+  - seaborn
+  - pip:
+      - charset-normalizer==3.3.2
+      - docutils==0.17.1
+      - idna==3.6
+      - mmcif-pdbx==2.0.1
+      - pdb2pqr==3.6.2
+      - propka==3.5.1
+      - requests==2.31.0
+      - urllib3==2.1.0
 name: apbs-analysis
