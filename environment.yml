@@ -12,4 +12,6 @@ dependencies:
 - python-dotenv
 - click
 - pyyaml
+- ipykernel
+- nglview
 name: apbs-analysis
